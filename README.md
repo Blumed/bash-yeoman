@@ -1,5 +1,7 @@
 # Hive Launcher
 
+Some old code I found. It works great still. Have fun and carry on!
+
 ## Installation Instructions
 
 ```

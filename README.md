@@ -1,6 +1,6 @@
-#Hive Launcher
+# Hive Launcher
 
-##Installation Instructions
+## Installation Instructions
 
 ```
 curl --user bitbucketusername:bitbucketpassword https://bitbucket.org/horizontal/hive-launcher/get/master.zip -o master.zip && unzip master.zip
@@ -33,14 +33,14 @@ Here is a breakdown of the code above:
 
 ---
 
-##Initial Installation
+## Initial Installation
 First off, welcome to HIVE! On your first install you must enter your bitbucket credentials. If you mess up or feel fuzzy about the information you entered don’t worry. There will be a final step asking you if all of the information you have entered is correct. Feel free to type (n) and start over.
 
 ---
 
-##Hive Init
+## Hive Init
 The init file is only meant to run once. The file checks to see if you have a .bash_profile. If no such file exists it creates one. Then it creates a link to the launcher itself and a secret file to store your bitbucket credentials. If you move the launcher you'll need to update your .bash_profile.
 
-##Hive Launcher
+## Hive Launcher
 The launcher activates when `HIVE` is typed into the terminal. It will ask if you would like to update your bitbucket credentials. If it is your first time using HIVE then you must follow this step. If you already added your bitbucket credentials and you don’t need to update your information then you should skip this step. The script builds the bitbucket curl. This curl creates a new instance of hive with no git history. Moves hive to your preferred project folder. Hive folder is renamed to the project name you have entered. Then it goes into your new directory and runs `npm install` and `gulp`. 
 For now on when you start a new project here at HI the only requirement is to run the HIVE script and fill out the installation tutorial. Have fun, and happy coding.# bash-yeoman
